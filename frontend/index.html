@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XomNhaLa</title>
+    <!-- Liên kết đến file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login" class="container">
+    <h2>Đăng Nhập / Đăng Ký</h2>
+    <input id="serverIP" placeholder="Địa chỉ IP (ví dụ: localhost)" value="localhost">
+    <input id="userName" placeholder="Tên đăng nhập">
+    <input id="password" type="password" placeholder="Mật khẩu">
+    <button onclick="loginUser()">Đăng Nhập</button>
+    <button onclick="registerUser()" style="background: #555;">Đăng Ký</button>
+    <div id="authMsg" style="color: red; text-align: center; margin-top: 10px; font-size: 14px;"></div>
+</div>
+
+    <div id="chat" class="container">
+        <div id="messages"></div>
+        <div class="input-area-wrapper">
+            <div class="input-area">
+                <input 
+                    id="messageInput" 
+                    placeholder="Nhập tin nhắn..." 
+                    onkeypress="handleEnter(event)"
+                >
+                <button id="sendButton" onclick="sendMessage()">
+                    Gửi
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Liên kết đến file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
