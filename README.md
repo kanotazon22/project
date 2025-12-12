@@ -26,10 +26,6 @@ This project was built and developed by 3 friends:
 * Supports playing directly in the browser, no download required
 * Lightweight, smooth interface optimized for mobile
 
-## 🚀 Play Now
-
-👉 **[https://kanotazon22.github.io/project/](https://kanotazon22.github.io/project/)**
-
 ## 📌 Suggestions & Feedback
 
 All feedback is valuable! Please send your comments so we can improve Xóm Nhà Lá even better.
