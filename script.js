@@ -1,4 +1,5 @@
-const SERVER_URL = 'changes-capable-bio-sounds.trycloudflare.com                            ';
+// ==================== CONFIGURATION ====================
+let SERVER_URL = localStorage.getItem('server_url') || 'xomnhala1.loca.lt'; // Thay đổi URL server tại đây
 
 // ==================== GLOBAL STATE ====================
 let ws = null;
@@ -28,6 +29,37 @@ const elements = {
     statusDot: document.querySelector('#serverStatus .status-dot'),
     statusText: document.querySelector('#serverStatus .status-text')
 };
+
+// ==================== URL MANAGEMENT ====================
+function saveServerUrl() {
+    const input = document.getElementById('serverUrlInput');
+    let url = input.value.trim();
+    
+    if (!url) {
+        alert('❌ Vui lòng nhập URL!');
+        return;
+    }
+    
+    // Remove protocol if exists
+    url = url.replace(/^(https?:\/\/|wss?:\/\/)/, '');
+    url = url.replace(/\/$/, '');
+    
+    SERVER_URL = url;
+    localStorage.setItem('server_url', url);
+    alert('✅ Đã lưu URL: ' + url);
+    
+    // Reconnect if already connected
+    if (ws) {
+        ws.close();
+    }
+}
+
+function loadSavedUrl() {
+    const input = document.getElementById('serverUrlInput');
+    if (input && SERVER_URL) {
+        input.value = SERVER_URL;
+    }
+}
 
 // ==================== LOCAL STORAGE ====================
 const STORAGE_KEY = 'rpg_saved_accounts';
@@ -608,6 +640,7 @@ if (elements.messageInput) {
 
 // ==================== INITIALIZATION ====================
 window.addEventListener('load', () => {
+    loadSavedUrl();
     displaySavedAccounts();
     console.log(`🌐 Configured server: ${SERVER_URL}`);
 });
@@ -633,6 +666,7 @@ document.addEventListener('touchend', function(event) {
 }, false);
 
 // Make functions globally accessible
+window.saveServerUrl = saveServerUrl;
 window.quickLogin = quickLogin;
 window.removeAccount = removeAccount;
 window.loginUser = loginUser;
