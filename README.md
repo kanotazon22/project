@@ -2,7 +2,7 @@
 
 **Text-Based Online MMORPG**
 
-Link to play: [https://kanotazon22.github.io/project/](https://kanotazon22.github.io/project/)
+Link to play: https://kanotazon22.github.io/Leaf-Hamlet/
 
 ## 🧙‍♂️ Introduction
 
