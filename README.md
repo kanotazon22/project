@@ -1,31 +1,67 @@
-# Leaf Hamlet
+# 🍃 Leaf Hamlet - Text-Based MMORPG
 
-**Text-Based Online MMORPG**
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-Link to play: https://kanotazon22.github.io/Leaf-Hamlet/
+![Platform](https://img.shields.io/badge/Platform-Web%20Browser-blue)
 
-## 🧙‍♂️ Introduction
+![Genre](https://img.shields.io/badge/Genre-MMORPG%20%7C%20Text--Based-orange)
 
-**Leaf Hamlet** is a **text-based MMORPG** where players adventure in a simple yet eventful world filled with combat, quests, and social interaction all in text.
+> **Leaf Hamlet** is a text-based massively multiplayer online role-playing game (MMORPG). You'll adventure in a simple world full of events, combat, and social interaction.
 
-The game is minimalist, lightweight, runs directly on the web, and is playable on any device.
+ ---
 
- ## 👥 Contributions
+## 🔗 Join Now
 
-This project was built and developed by 3 friends:
+### 🎮 [PLAY NOW IN YOUR BROWSER](https://kanotazon22.github.io/Leaf-Hamlet/)
 
-* **Simla** – Coder
-* **Luna** – Tester
-* **Beluga** – Tester
+*(No installation required - Plays smoothly on all devices)*
 
-## 🎮 Key Features
+### 💬 [JOIN THE DISCORD COMMUNITY](https://discord.gg/xaK47Gs3mw)
 
-* Simple, fast text-based combat
-* Extensive quest system
-* Characters with upgradeable stats and skills
-* Supports playing directly in the browser, no download required
-* Lightweight, smooth interface optimized for mobile
+*(Discuss, report bugs, and interact with other players)*
 
-## 📌 Suggestions & Feedback
+---
 
-All feedback is valuable! Please send your comments so we can improve Leaf Hamlet even better.
+## 🌟 Key Features
+
+Leaf Hamlet offers a classic role-playing experience but modernized with convenience:
+
+* ⚔️ **Combat System:** Fast, concise, text-based, yet highly tactical.
+
+* 📜 **Quest System:** Rich quest chain with diverse storylines.
+
+ * 📈 **Character Development:** Customize and upgrade stats and skills to your liking.
+
+* 📱 **Optimization:** Super lightweight, smooth interface, optimized for both mobile and PC.
+
+* 🌐 **Cross-platform:** Runs directly on the web, play anytime, anywhere.
+
+---
+
+## 👥 Development Team
+
+This project is built and developed by 3 passionate friends:
+
+| Roles | Members |
+
+| :--- | :--- |
+
+| **Coder / Developer** | 👨‍💻 **Simla** |
+
+| **Tester / QA** | 🕵️‍♀️ **Luna** |
+
+| **Tester / QA** | 🐳 **Beluga** |
+
+ ---
+
+## 📌 Contributions & Feedback
+
+Your feedback is invaluable in helping **Leaf Hamlet** become even better!
+
+If you encounter bugs or have new feature ideas:
+1. Join our **[Discord Server](https://discord.gg/xaK47Gs3mw)**.
+
+2. Or create an **Issue** directly on this repository.
+
+---
+*Leaf Hamlet © 2024 - Made with ❤️ by Simla & Friends*
