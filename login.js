@@ -101,7 +101,7 @@ const LoginModule = {
         
         try {
             google.accounts.id.initialize({
-                client_id: '16750561370-qi17sin24be9ghnpa5c5uqijt5mjrp44.apps.googleusercontent.com.apps.googleusercontent.com', // Replace with your actual Client ID
+                client_id: '16750561370-qi17sin24be9ghnpa5c5uqijt5mjrp44.apps.googleusercontent.com',
                 callback: (response) => this.handleGoogleCredential(response),
                 auto_select: false,
             });
