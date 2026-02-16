@@ -1,0 +1,443 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   Guild Styles - Matching Game Design System
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Guild Invitations */
+.guild-invitations {
+    background: var(--p);
+    border: 1.5px solid var(--k);
+    margin-bottom: 20px;
+}
+
+.guild-invitations h3 {
+    font-family: var(--fm);
+    font-size: 0.68rem;
+    letter-spacing: 0.25em;
+    color: var(--w);
+    padding: 12px 16px;
+    margin: 0;
+    background: var(--k);
+    border-bottom: 1.5px solid var(--k);
+}
+
+.guild-invite-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--l);
+    background: var(--w);
+    transition: all var(--t);
+}
+
+.guild-invite-card:last-child {
+    border-bottom: none;
+}
+
+.guild-invite-card:hover {
+    background: var(--p);
+}
+
+.guild-invite-info {
+    flex: 1;
+}
+
+.guild-invite-name {
+    font-family: var(--fb);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--k);
+    margin-bottom: 4px;
+}
+
+.guild-invite-from {
+    font-family: var(--fm);
+    font-size: 0.68rem;
+    letter-spacing: 0.05em;
+    color: var(--m);
+}
+
+.guild-invite-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-accept, .btn-decline {
+    padding: 8px 16px;
+    border: 1.5px solid var(--k);
+    cursor: pointer;
+    font-family: var(--fm);
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    transition: all var(--t);
+}
+
+.btn-accept {
+    background: var(--k);
+    color: var(--w);
+}
+
+.btn-accept:hover {
+    background: #222;
+    transform: translateY(-1px);
+}
+
+.btn-decline {
+    background: var(--w);
+    color: var(--k);
+}
+
+.btn-decline:hover {
+    background: var(--p);
+}
+
+/* Guild Creation */
+.guild-create-section {
+    background: var(--w);
+    border: 1.5px solid var(--k);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.guild-create-section h2 {
+    font-family: var(--fm);
+    font-size: 0.68rem;
+    letter-spacing: 0.25em;
+    color: var(--w);
+    padding: 12px 16px;
+    margin: 0;
+    background: var(--k);
+    border-bottom: 1.5px solid var(--k);
+}
+
+.guild-create-desc {
+    padding: 16px 20px;
+    font-family: var(--fb);
+    font-size: 0.92rem;
+    color: var(--m);
+    text-align: center;
+    font-style: italic;
+    border-bottom: 1px solid var(--l);
+}
+
+.guild-form {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-family: var(--fm);
+    font-size: 0.62rem;
+    letter-spacing: 0.2em;
+    color: var(--m);
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 11px 14px;
+    background: var(--p);
+    border: 1.5px solid var(--l);
+    border-bottom-color: var(--k);
+    font-family: var(--fb);
+    font-size: 1rem;
+    color: var(--k);
+    outline: none;
+    transition: all var(--t);
+}
+
+.form-group input:focus {
+    border-color: var(--k);
+    background: var(--w);
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.guild-cost {
+    text-align: center;
+    padding: 12px;
+    background: var(--p);
+    border: 1px solid var(--l);
+    font-family: var(--fm);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    color: var(--m);
+    margin-bottom: 20px;
+}
+
+.guild-cost strong {
+    color: var(--k);
+    font-weight: 600;
+}
+
+.guild-form .btn-primary {
+    margin-top: 0;
+}
+
+/* Guild Header */
+.guild-header {
+    background: var(--w);
+    border: 1.5px solid var(--k);
+    margin-bottom: 20px;
+}
+
+.guild-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--l);
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.guild-title h2 {
+    font-family: var(--fb);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--k);
+    margin: 0;
+}
+
+.guild-buff {
+    background: var(--k);
+    color: var(--w);
+    padding: 6px 14px;
+    font-family: var(--fm);
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    border: 1.5px solid var(--k);
+}
+
+.guild-meta {
+    padding: 12px 20px;
+    font-family: var(--fm);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    color: var(--m);
+}
+
+/* Leader Actions */
+.guild-leader-actions {
+    background: var(--w);
+    border: 1.5px solid var(--k);
+    margin-bottom: 20px;
+}
+
+.guild-leader-actions h3 {
+    font-family: var(--fm);
+    font-size: 0.68rem;
+    letter-spacing: 0.25em;
+    color: var(--w);
+    padding: 12px 16px;
+    margin: 0;
+    background: var(--k);
+    border-bottom: 1.5px solid var(--k);
+}
+
+.leader-action-row {
+    display: flex;
+    gap: 8px;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--l);
+}
+
+.leader-action-row:last-child {
+    border-bottom: none;
+}
+
+.leader-action-row input {
+    flex: 1;
+    padding: 10px 14px;
+    background: var(--p);
+    border: 1.5px solid var(--l);
+    font-family: var(--fb);
+    font-size: 0.92rem;
+    color: var(--k);
+    outline: none;
+    transition: all var(--t);
+}
+
+.leader-action-row input:focus {
+    border-color: var(--k);
+    background: var(--w);
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.leader-action-row button {
+    padding: 10px 20px;
+    border: 1.5px solid var(--k);
+    cursor: pointer;
+    font-family: var(--fm);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    transition: all var(--t);
+    white-space: nowrap;
+}
+
+.btn-danger {
+    background: var(--k);
+    color: var(--w);
+}
+
+.btn-danger:hover {
+    background: #222;
+    transform: translateY(-1px);
+}
+
+.btn-danger-outline {
+    background: var(--w);
+    color: var(--k);
+    border: 1.5px solid var(--k);
+    padding: 12px 20px;
+    cursor: pointer;
+    font-family: var(--fm);
+    font-size: 0.68rem;
+    letter-spacing: 0.15em;
+    transition: all var(--t);
+    width: 100%;
+    margin-top: 12px;
+}
+
+.btn-danger-outline:hover {
+    background: var(--p);
+}
+
+/* Member Actions */
+.guild-member-actions {
+    margin-bottom: 20px;
+}
+
+/* Members Section */
+.guild-members-section {
+    background: var(--w);
+    border: 1.5px solid var(--k);
+}
+
+.guild-members-section h3 {
+    font-family: var(--fm);
+    font-size: 0.68rem;
+    letter-spacing: 0.25em;
+    color: var(--w);
+    padding: 12px 16px;
+    margin: 0;
+    background: var(--k);
+    border-bottom: 1.5px solid var(--k);
+}
+
+.guild-members-list {
+    display: grid;
+    gap: 0;
+}
+
+.guild-member-card {
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--l);
+    background: var(--w);
+    transition: all var(--t);
+    position: relative;
+}
+
+.guild-member-card:last-child {
+    border-bottom: none;
+}
+
+.guild-member-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--k);
+    transform: scaleY(0);
+    transition: transform var(--t);
+    transform-origin: bottom;
+}
+
+.guild-member-card:hover {
+    background: var(--p);
+    padding-left: 28px;
+}
+
+.guild-member-card:hover::before {
+    transform: scaleY(1);
+}
+
+.guild-member-card.is-leader {
+    background: var(--k);
+    color: var(--w);
+}
+
+.guild-member-card.is-leader .member-level {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.guild-member-card.is-leader::before {
+    transform: scaleY(1);
+}
+
+.member-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.member-name {
+    font-family: var(--fb);
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.leader-badge {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: var(--w);
+    padding: 3px 8px;
+    font-family: var(--fm);
+    font-size: 0.58rem;
+    letter-spacing: 0.12em;
+}
+
+.member-level {
+    font-family: var(--fm);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    color: var(--m);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .guild-title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .guild-invite-card {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+    
+    .guild-invite-actions {
+        width: 100%;
+    }
+    
+    .guild-invite-actions button {
+        flex: 1;
+    }
+    
+    .leader-action-row {
+        flex-direction: column;
+    }
+}
